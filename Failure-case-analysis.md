@@ -1,7 +1,7 @@
 # Failure case analysis · <case> (v1.0, 2026-__-__)
 Authors: <member per section>
 
-## 1. Context (hello)
+## 1. Context 
 ## 2. Timeline
 | Date | Event |
 |------|-------|
