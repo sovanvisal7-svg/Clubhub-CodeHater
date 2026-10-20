@@ -1,11 +1,11 @@
-# Team charter · <Code Hater> (v1.0, 2026-__-__)
+# Team charter · <Code Hater> (v1.0, 2026-2027)
 
 ## Members and roles
 | Member | GitHub | Role (Sprint 1) | Shared hat |
 |--------|--------|-----------------|------------|
 |        | @      | Product Owner   |            |
 |        | @      | Scrum Master    |            |
-|Ouk Sovanvisal        | @      | Developer       |            |
+|Ouk Sovanvisal        | @sovanvisal7-svg      | Developer       |            |
 |        | @      | Developer       |            |
 Scrum Master rotation: Sprint 1 = ______, Sprint 2 = ______.
 The Product Owner stays the same all semester.
