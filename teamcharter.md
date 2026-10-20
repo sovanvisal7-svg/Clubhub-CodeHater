@@ -7,7 +7,7 @@
 |Siem khattyavatey  | @zikkyiscool     | Scrum Master    |  UX Designer          |
 |Ouk Sovanvisal        | @sovanvisal7-svg      | Developer       |   tester         |
 |Kheng daniza        | @danizakheng310-glitch      | Developer       |Devops Engineer            |
-Scrum Master rotation: Sprint 1 = ______, Sprint 2 = ______.
+Scrum Master rotation: Sprint 1 = Lay pichrattanak, Sprint 2 = Siem khatyavatey.
 The Product Owner stays the same all semester.
 
 ## Working agreements
