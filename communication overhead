@@ -9,8 +9,8 @@ Team capacity: __ members × __ h = __ h/week -> overhead = __ %
 ## Our paths (model b)
 ```mermaid
 flowchart LR
-Dara --- Sokha
-Dara --- Client
+Rattanak --- Vatey
+Rattanak --- Client
 ```
 ## Two practices
 1. ... new overhead: __ h/week
