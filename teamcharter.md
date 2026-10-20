@@ -20,15 +20,15 @@ The Product Owner stays the same all semester.
 ## Communication channels
 | Purpose       | Channel          | Expected response |
 |---------------|------------------|-------------------|
-| Chat          |                  |                   |
-| Work items    | GitHub Issues    |                   |
+| Chat          |  Telegram Group                |     Within 12 hours              |
+| Work items    | GitHub Issues    |      Within 24 hours             |
 | Files         | this repository  | n/a               |
-| Meetings      |                  |                   |
+| Meetings      |  Zoom/Google Meet                |          Saturday and Sunday         |
 
 ## Decision rules
-- Product questions:
-- Technical questions:
-- Deadlock (no agreement after __ hours):
+- Product questions: what to build, priority of features, etc.. (2 hours)
+- Technical questions: language features, structure of the code, tools. (2 hours)
+- Deadlock (no agreement after 12 hours): 
 - Where decisions are recorded: lab01/decisions.md
 
 ## Agreed by
