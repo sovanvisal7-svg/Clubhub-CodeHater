@@ -34,3 +34,4 @@ flowchart TD
 
 ## 7. Sources
 1. <author or organisation, title, year, URL> (primary)
+U.S. Securities and Exchange Commission, "SEC Charges Knight Capital With Violations of Market Access Rule", 2013, https://www.sec.gov/news/press-release/2013-222
