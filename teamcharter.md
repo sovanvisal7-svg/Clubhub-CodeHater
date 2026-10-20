@@ -3,10 +3,10 @@
 ## Members and roles
 | Member | GitHub | Role (Sprint 1) | Shared hat |
 |--------|--------|-----------------|------------|
-|        | @      | Product Owner   |            |
-|        | @      | Scrum Master    |            |
+| Lay pichrattanak       | @tutudi-hacker      | Product Owner   |  Business Analyst          |
+|Siem khattyavatey  | @zikkyiscool     | Scrum Master    |  UX Designer          |
 |Ouk Sovanvisal        | @sovanvisal7-svg      | Developer       |   tester         |
-|        | @      | Developer       |            |
+|Kheng daniza        | @danizakheng310-glitch      | Developer       |Devops Engineer            |
 Scrum Master rotation: Sprint 1 = ______, Sprint 2 = ______.
 The Product Owner stays the same all semester.
 
@@ -26,10 +26,11 @@ The Product Owner stays the same all semester.
 | Meetings      |  Zoom/Google Meet                |          Saturday and Sunday         |
 
 ## Decision rules
-- Product questions: what to build, priority of features, etc.. (2 hours)
-- Technical questions: language features, structure of the code, tools. (2 hours)
-- Deadlock (no agreement after 12 hours): 
+- Product questions: Decided by Product Owner after consulting the team
+- Technical questions: Decided by majority vote among Developers
+- Deadlock (no agreement after 24 hours): Decided by the Scrum Master 
 - Where decisions are recorded: lab01/decisions.md
 
 ## Agreed by
 <!-- each member adds "- Name, date" in their own commit (Task 2) -->
+Ouk Sovanvisal - 10/20/2026
