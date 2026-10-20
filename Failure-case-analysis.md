@@ -11,10 +11,12 @@ Authors: <member per section>
 
 ```mermaid
 flowchart TD
-  A["root cause"] --> B["..."]
-  B --> C["..."]
-  C --> D["..."]
-  D --> E["impact"]
+  A["Old Power Peg code left in production and not retested after a 2005 change"] --> B["New RLP code reuses the old Power Peg flag"]
+  B --> C["Manual deployment misses 1 of 8 servers with no second-person review"]
+  C --> D["Flag activates the old Power Peg code on the 8th server"]
+  D --> E["Router sends 4M+ orders for 212 customer orders"]
+  E --> F["97 warning emails go unactioned, so the trading continues"]
+  F --> G["$460M+ loss in 45 minutes and a $12M SEC penalty"]
 ```
 
 ## 4. Root causes
