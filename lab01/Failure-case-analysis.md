@@ -22,7 +22,8 @@ flowchart TD
 ## 4. Root causes
 | # | Root cause | Type | Essential difficulty | Why |
 |---|------------|------|----------------------|-----|
-| R1 |           | technical / process / organisational | | |
+| R1 | Old legacy code that  had not been properly removed from the production environment. | Technical | Changeability |  On August 1, 2012, the outdated server activated old obsolete legacy software known as “Power Peg.” ,which the newly introduced software unintentionally triggered this legacy function |
+| R2 | New code was not installed on all eight servers. | Process | Complexity | The new code was done manually by human.
 
 ## 5. Practices that would have prevented or limited it
 | Root cause | Practice | Chapter |

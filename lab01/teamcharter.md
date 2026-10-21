@@ -3,11 +3,11 @@
 ## Members and roles
 | Member | GitHub | Role (Sprint 1) | Shared hat |
 |--------|--------|-----------------|------------|
-| Lay pichrattanak       | @tutudi-hacker      | Product Owner   |  Business Analyst          |
-|Siem khattyavatey  | @zikkyiscool     | Scrum Master    |  UX Designer          |
-|Ouk Sovanvisal        | @sovanvisal7-svg      | Developer       |   tester         |
-|Kheng daniza        | @danizakheng310-glitch      | Developer       |Devops Engineer            |
- |Saroeun Mengheng|@smengheng1926-boop|Developer|Shared hat   |
+| Lay pichrattanak | @tutudi-hacker | Product Owner | Business Analyst |
+| Siem khattyavatey | @zikkyiscool | Scrum Master | UX Designer |
+| Ouk Sovanvisal | @sovanvisal7-svg | Developer | Tester |
+| Kheng daniza | @danizakheng310-glitch | Developer | Devops Engineer |
+| Saroeun Mengheng | @smengheng1926-boop | Developer | Shared hat |
 Scrum Master rotation: Sprint 1 = Lay pichrattanak, Sprint 2 = Siem khatyavatey.
 The Product Owner stays the same all semester.
 
