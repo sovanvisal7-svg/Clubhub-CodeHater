@@ -55,6 +55,7 @@ author or organisation, title, year, URL (primary)
 3. Varma, J. R. (2013). SEC order explains Knight Capital systems failure. https://www.jrvarma.in/blog/Y2013/Knight-Capital.html 
 4. Dolfing, H. (2019). Case study 4: The $440 million software error at Knight Capital. https://www.henricodolfing.ch/en/case-study-4-the-440-million-software-error-at-knight-capital/
 5. Badizadegan, N. (2023). The Knight Capital disaster. Speculative Branches. https://specbranch.com/posts/knight-capital/
+6. J. R. Varma, (2013),"SEC order explains Knight Capital systems failure," blog,, https://www.jrvarma.in/blog/Y2013/Knight-Capital.html
 =======
 1. <author or organisation, title, year, URL> (primary)
 2. U.S. Securities and Exchange Commission, "SEC Charges Knight Capital With Violations of Market Access Rule", 2013, https://www.sec.gov/news/press-release/2013-222
