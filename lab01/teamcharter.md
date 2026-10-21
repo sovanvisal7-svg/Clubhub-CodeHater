@@ -3,11 +3,11 @@
 ## Members and roles
 | Member | GitHub | Role (Sprint 1) | Shared hat |
 |--------|--------|-----------------|------------|
-| Lay pichrattanak       | @tutudi-hacker      | Product Owner   |  Business Analyst          |
-|Siem khattyavatey  | @zikkyiscool     | Scrum Master    |  UX Designer          |
-|Ouk Sovanvisal        | @sovanvisal7-svg      | Developer       |   tester         |
-|Kheng daniza        | @danizakheng310-glitch      | Developer       |Devops Engineer            |
- |Saroeun Mengheng|@smengheng1926-boop|Developer|Shared hat   |
+| Lay pichrattanak | @tutudi-hacker | Product Owner | Business Analyst |
+| Siem khattyavatey | @zikkyiscool | Scrum Master | UX Designer |
+| Ouk Sovanvisal | @sovanvisal7-svg | Developer | Tester |
+| Kheng daniza | @danizakheng310-glitch | Developer | Devops Engineer |
+| Saroeun Mengheng | @smengheng1926-boop | Developer | Shared hat |
 Scrum Master rotation: Sprint 1 = Lay pichrattanak, Sprint 2 = Siem khatyavatey.
 The Product Owner stays the same all semester.
 
@@ -21,10 +21,10 @@ The Product Owner stays the same all semester.
 ## Communication channels
 | Purpose       | Channel          | Expected response |
 |---------------|------------------|-------------------|
-| Chat          |  Telegram Group                |     Within 12 hours              |
-| Work items    | GitHub Issues    |      Within 24 hours             |
-| Files         | this repository  | n/a               |
-| Meetings      |  Zoom/Google Meet                |          Saturday and Sunday         |
+| Chat          |  Telegram Group  | Within 12 hours   |
+| Work items    |  GitHub Issues   | Within 24 hours   |
+| Files         |  this repository | n/a               |
+| Meetings      |  Zoom/Google Meet |Saturday and Sunday |
 
 ## Decision rules
 - Product questions: Decided by Product Owner after consulting the team
@@ -36,3 +36,6 @@ The Product Owner stays the same all semester.
 <!-- each member adds "- Name, date" in their own commit (Task 2) -->
 Ouk Sovanvisal - 10/20/2026
 Lay Pichrattanak - 10/20/2026
+Siem Khattyavatey - 10/21/2026
+Kheng Daniza - 10/21/2026
+Saroeun Mengheng - 10/21/2026
