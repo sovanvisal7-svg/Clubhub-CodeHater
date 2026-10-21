@@ -36,3 +36,4 @@ The Product Owner stays the same all semester.
 <!-- each member adds "- Name, date" in their own commit (Task 2) -->
 Ouk Sovanvisal - 10/20/2026
 Lay Pichrattanak - 10/20/2026
+Siem Khattyavatey - 10/21/2026
