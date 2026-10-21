@@ -29,6 +29,8 @@ flowchart TD
 |---|------------|------|----------------------|-----|
 | R1 | Old legacy code that  had not been properly removed from the production environment. | Technical | Changeability |  On August 1, 2012, the outdated server activated old obsolete legacy software known as “Power Peg.” ,which the newly introduced software unintentionally triggered this legacy function |
 | R2 | New code was not installed on all eight servers. | Process | Complexity | The new code was done manually by human. |
+| R3 | Testing and validation did not catch the failure before release. | Organisational | Invisibility | The deployment fail to catch the error and the firm lacked adequate controls to detect that one server remained on outdated code. |
+| R4 | Risk management can not stop automatically. | Organisational | Conformity | The risk management rely heavily on human observation ,since there is no safeguard. |
 
 ## 5. Practices that would have prevented or limited it
 | Root cause | Practice | Chapter |
