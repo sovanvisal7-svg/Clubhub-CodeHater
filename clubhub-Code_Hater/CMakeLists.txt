@@ -12,8 +12,7 @@ PRIVATE CLUBHUB_VERSION="${PROJECT_VERSION}")
 if(MSVC)
 target_compile_options(clubhub_core PRIVATE /W4)
 else()
-target_compile_options(clubhub_core PRIVATE -Wall -Wextra -
-Wpedantic)
+target_compile_options(clubhub_core PRIVATE -Wall -Wextra -Wpedantic)
 endif()
 # Executable: the command-line front endif
 add_executable(clubhub src/main.cpp)
