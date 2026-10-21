@@ -8,7 +8,15 @@ On August 1, 2012, a software deployment failure in its Supplemental Market Acce
 The U.S. Securities and Exchange Commission (SEC) found that Knight lacked adequate software deployment procedures, supervisory controls, and automated safeguards to limit trading risks.
 ## 2. Timeline
 | Date | Event |
+| Date | Event |
 |------|-------|
+| 2003 | Knight ceased using an internal trading functionality known as “Power Peg.” However, the related code was not removed from the company’s trading system and remained dormant within production systems |
+| 2005 |  Knight modified portions of its automated routing software, known as SMARS, moving code in a way that rendered the dormant Power Peg functionality defective if ever reactivated. Although the function was no longer intended for use, the code remained live within the system. |
+| July 27–31, 2012 | Knight prepared for the launch of the New York Stock Exchange’s new Retail Liquidity Program (RLP) by deploying updated software to its trading environment. During this deployment, the new code was incorrectly installed, with one of Knight’s eight production servers failing to receive the full software update. |
+| August 1, 2012 | the outdated server activated old obsolete legacy software known as “Power Peg.” ,which the newly introduced software unintentionally triggered the old legacy function |
+| August 1–2, 2012 | Knight disclosed that the technology failure had caused a pre-tax loss of approximately $440 million, severely damaging the firm’s capital position. Knight also confirmed that the faulty software had been removed from production systems. |
+|August 5–6, 2012 | Knight secured approximately $400 million in emergency financing from a group of investors in order to avoid immediate collapse and maintain operations. |
+| December 2012 | Knight agreed to be acquired by Getco LLC, effectively ending Knight’s independence as a standalone firm. |
 
 ## 3. What failed
 <one paragraph>
