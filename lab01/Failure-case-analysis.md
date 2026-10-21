@@ -35,9 +35,9 @@ flowchart TD
 2.
 
 ## 7. Sources
-## <author or organisation, title, year, URL> (primary)
+//author or organisation, title, year, URL (primary)
 1. U.S. Securities and Exchange Commission, "SEC Charges Knight Capital With Violations of Market Access Rule", 2013, https://www.sec.gov/news/press-release/2013-222
-2. CBS News. (2012) Knight Capital avoids collapse with $400M lifeline.
-3. Varma, J.R. (2013) SEC Order Explains Knight Capital Systems Failure. 
-4. Knight Capital Group. (2012) Knight Capital Group Announces Trading Loss Related to August 1, 2012 Trading Event.
-5. Spec Branch. (2024) Knight Capital: A Trading Disaster. 
+2. CBS News. (2012). Knight Capital avoids collapse with $400M lifeline. https://www.cbsnews.com/news/knight-capital-avoids-collapse-with-400m-lifeline/
+3. Varma, J. R. (2013). SEC order explains Knight Capital systems failure. https://www.jrvarma.in/blog/Y2013/Knight-Capital.html 
+4. Knight Capital Group. (2012). Knight Capital Group announces trading loss related to August 1, 2012 trading event. [Original press release URL needed.]
+ 
