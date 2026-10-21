@@ -2,6 +2,7 @@
 Authors: <member per section>
 
 ## 1. Context 
+
 ## 2. Timeline
 | Date | Event |
 |------|-------|
@@ -23,7 +24,7 @@ flowchart TD
 | # | Root cause | Type | Essential difficulty | Why |
 |---|------------|------|----------------------|-----|
 | R1 | Old legacy code that  had not been properly removed from the production environment. | Technical | Changeability |  On August 1, 2012, the outdated server activated old obsolete legacy software known as “Power Peg.” ,which the newly introduced software unintentionally triggered this legacy function |
-| R2 | New code was not installed on all eight servers. | Process | Complexity | The new code was done manually by human.
+| R2 | New code was not installed on all eight servers. | Process | Complexity | The new code was done manually by human. |
 
 ## 5. Practices that would have prevented or limited it
 | Root cause | Practice | Chapter |
@@ -34,5 +35,9 @@ flowchart TD
 2.
 
 ## 7. Sources
-1. <author or organisation, title, year, URL> (primary)
-2. U.S. Securities and Exchange Commission, "SEC Charges Knight Capital With Violations of Market Access Rule", 2013, https://www.sec.gov/news/press-release/2013-222
+## <author or organisation, title, year, URL> (primary)
+1. U.S. Securities and Exchange Commission, "SEC Charges Knight Capital With Violations of Market Access Rule", 2013, https://www.sec.gov/news/press-release/2013-222
+2. CBS News. (2012) Knight Capital avoids collapse with $400M lifeline.
+3. Varma, J.R. (2013) SEC Order Explains Knight Capital Systems Failure. 
+4. Knight Capital Group. (2012) Knight Capital Group Announces Trading Loss Related to August 1, 2012 Trading Event.
+5. Spec Branch. (2024) Knight Capital: A Trading Disaster. 
