@@ -37,10 +37,11 @@ flowchart TD
 
 ## 6. Lessons for ITC Club Hub
 1.**Test before deployment.** Test software changes in a separate environment and verify that every server has the correct version.
+
 2.**Don't be lazy.** Removed outdated code or any code that is not used.
 
 ## 7. Sources
-//author or organisation, title, year, URL (primary)
+author or organisation, title, year, URL (primary)
 1. U.S. Securities and Exchange Commission, "SEC Charges Knight Capital With Violations of Market Access Rule", 2013, https://www.sec.gov/news/press-release/2013-222
 2. CBS News. (2012). Knight Capital avoids collapse with $400M lifeline. https://www.cbsnews.com/news/knight-capital-avoids-collapse-with-400m-lifeline/
 3. Varma, J. R. (2013). SEC order explains Knight Capital systems failure. https://www.jrvarma.in/blog/Y2013/Knight-Capital.html 
