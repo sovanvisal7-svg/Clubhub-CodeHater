@@ -21,10 +21,10 @@ The Product Owner stays the same all semester.
 ## Communication channels
 | Purpose       | Channel          | Expected response |
 |---------------|------------------|-------------------|
-| Chat          |  Telegram Group                |     Within 12 hours              |
-| Work items    | GitHub Issues    |      Within 24 hours             |
-| Files         | this repository  | n/a               |
-| Meetings      |  Zoom/Google Meet                |          Saturday and Sunday         |
+| Chat          |  Telegram Group  | Within 12 hours   |
+| Work items    |  GitHub Issues   | Within 24 hours   |
+| Files         |  this repository | n/a               |
+| Meetings      |  Zoom/Google Meet |Saturday and Sunday |
 
 ## Decision rules
 - Product questions: Decided by Product Owner after consulting the team
