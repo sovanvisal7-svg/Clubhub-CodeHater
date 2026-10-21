@@ -1,6 +1,5 @@
 # Failure case analysis · <case> (v1.0, 2026-__-__)
-Authors: <member per section>
-
+Authors: Lay Pichrattanak ,Siem Khattyavtey ,Ouk Sovanvisal ,Kheng Daniza ,Mengheng Saroeun
 ## 1. Context 
 Knight Capital Group was a major U.S. financial services firm that used automated software to route stock orders to financial markets.
 
