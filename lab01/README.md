@@ -17,4 +17,4 @@ Inputs reused from earlier labs: none (first lab).
 | Date | Version | Change | Commit |
 |------|---------|--------|--------|
 | 2026-10-16 | v0.1.0 | Link Vscode with github | a66c6b5 |
-| 2026-10-21 | v0.1.0 | Team, repository, failure analysis, problem statement, first build | abc1234 |
+| 2026-10-21 | v0.1.0 | Team, repository, failure analysis, problem statement, first build | efc20dc |
