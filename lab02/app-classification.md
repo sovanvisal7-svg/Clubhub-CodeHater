@@ -1,5 +1,5 @@
 # Lab-02 · Classification of five applications
-Version 1.0 · 2026-__-__ · Team: __
+Version 1.0 · 2026-2027 · Team: Code_Hater
 
 | # | Application | Kind | Type(s) | Where the code runs, how it is delivered | Architecture | Top 3 qualities (why) | Filled by |
 |---|-------------|------|---------|------------------------------------------|--------------|-----------------------|-----------|
