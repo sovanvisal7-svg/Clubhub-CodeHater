@@ -3,10 +3,10 @@ Version 1.0 · 2026-2027 · Team: Code_Hater
 
 | # | Application | Kind | Type(s) | Where the code runs, how it is delivered | Architecture | Top 3 qualities (why) | Filled by |
 |---|-------------|------|---------|------------------------------------------|--------------|-----------------------|-----------|
-| 1 | Mobile banking app: __ | | | | | | |
+| 1 | Mobile banking app: ACLEDA | | | | | | |
 | 2 | Telegram | | | | | | |
 | 3 | ABS controller in a car | | | | | | |
 | 4 | Moodle at ITC | | | | | | |
-| 5 | Game: __ | | | | | | |
+| 5 | Game: Mobile Legends | | | | | | |
 
 Biggest difference we found: __
