@@ -4,9 +4,9 @@ Version 1.0 · 2026-__-__ · Status: Proposed | Accepted (date) · Deciders: __
 ## User groups
 | Group          | Device | Where | Connectivity | How often | Must never fail |
 |----------------|--------|-------|--------------|-----------|-----------------|
-| Students       |        |       |              |           |                 |
-| Organisers     |        |       |              |           |                 |
-| Administrators |        |       |              |           |                 |
+| Students       | Smartphones (iOS/Android) | Home, Campus, at events, in lecture halls | Mobile Data / Campus Wi-Fi | A few times a week, more on event days | Event registration and RSVP browsing |
+| Organisers     | Laptop, tablet and phone |Event Entrance Gates | weak 3G, Flaky/ congested Wi-Fi| Daily at events or weekly | Offline ticket scanning at the door |
+| Administrators | Laptops / Desktops PCs (Windows) | Student union office | Stable Wired LAN | Monthly | Global club approval and data backup |
 
 ## Options
 A. __   B. __   C. __   D. __
