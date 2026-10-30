@@ -31,3 +31,4 @@ Deal-breaker check: __
 - __
 ## Rejected options
 ## How the front ends reach the C++ core
+The PWA frontend will communicate over the local network via an asynchronous **HTTP REST API**. A lightweight web server (such as Crow or Civetweb) will be hosted alongside our backend. This server accepts the incoming HTTP JSON payloads sent by the frontend, unpacks the parameters, passes them directly into our compiled compiled C++ business logic core execution methods, and returns structured JSON responses straight back to the client interface.
