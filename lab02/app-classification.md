@@ -10,4 +10,4 @@ Version 1.0 · 2026-2027 · Team: Code_Hater
 | 5 | Game: Mobile Legends | Application software | Mobile native, cross-platform, game | Runs on phone hardware and match servers. Delivered via app store. | Client-server. Evidence: Handles 3D rendering locally but syncs player positions over network. | Performance (network spikes drop match wins), Availability (downtime stops matching), Security (cheating ruins fair competition). |Lay pichrattanak |
 
 
-Biggest difference we found: __
+Biggest difference we found: The ABS controller operates on strict real-time embedded safety loops where a millisecond failure risks human lives, whereas Moodle at ITC focuses on standard enterprise availability where a system crash causes academic inconvenience rather than physical harm.
