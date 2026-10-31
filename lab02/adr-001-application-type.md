@@ -23,12 +23,16 @@ A. __   B. __   C. __   D. __
 
 Deal-breaker check: __
 
-## Decision
 ## Consequences
-+ __
-+ __
-- __
-- __
++ Rapid single-codebase development using standard web frameworks (React/Vue), keeping semester costs minimal.
++ Uses Service Workers and Background Sync API to handle seamless offline ticket scanning at event gates.
+- Push notification support is restricted on older iOS devices compared to native builds.
+- Demands additional structural development to handle local data synchronization conflicts once network connectivity resumes.
+
 ## Rejected options
+*   Option A (Native Apps): Rejected because handling individual Apple App Store and Google Play deployments is too time-consuming for our strict single-semester schedule.
+*   Option B (Responsive Web App): Rejected because it provides zero operational capabilities when network connectivity drops at gate check-ins.
+*   Option D (Desktop Application): Rejected because it completely lacks the mobility required for students and event gates.
+
 ## How the front ends reach the C++ core
 The PWA frontend will communicate over the local network via an asynchronous **HTTP REST API**. A lightweight web server (such as Crow or Civetweb) will be hosted alongside our backend. This server accepts the incoming HTTP JSON payloads sent by the frontend, unpacks the parameters, passes them directly into our compiled compiled C++ business logic core execution methods, and returns structured JSON responses straight back to the client interface.
