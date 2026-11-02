@@ -7,9 +7,25 @@ Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): Siem Khattyavtey
 ## QAS-03 · Usability · written by Kheng Daniza
 
 ## QAS-04 · Security  · written by Ouk Sovanvisal
-
+Scenario: The ITC Club Hub system should protect students' personal information and prevent unauthorized users from accessing private data.
+| Part             | Content |
+|------------------|---------|
+| Source           | An unauthorized user attempting to access the system.            |
+| Stimulus         | The user attempts to access another student's personal information without permission.|
+| Environment      | While the system is operating normally.|
+| Artifact         | Authentication system, user accounts, and student database.          |
+| Response         | The system denies unauthorized access and records the security attempt.  |        
+| Response measure | 100% of unauthorized access attempts to protected student information must be denied.  |
 ## QAS-05 · Modifiability · written by Ouk Sovanvisal
-
+Scenario: The ITC Club Hub system should allow developers to easily update club information and add new features without affecting existing functions.
+| Part             | Content |
+|------------------|---------|
+| Source           |Development team or system administrator.         |
+| Stimulus         |The development team needs to add a new feature or modify an existing function.         |
+| Environment      |During system maintenance or a planned software update.         |
+| Artifact         |Application source code, database, and system modules.         |
+| Response         | The system allows developers to make changes without disrupting existing features.        |        
+| Response measure |A minor feature update should be completed and tested within 4 hours without causing errors in existing functions.         |
 ## QAS-06 · Portability · written by Siem Khattyavtey
 Scenario: The ITC Club Hub system should work properly across different devices and operating systems so students can access it conveniently.
 | Part             | Content | 
