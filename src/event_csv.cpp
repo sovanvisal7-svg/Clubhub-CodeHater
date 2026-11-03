@@ -1,3 +1,4 @@
+// src/event_csv.cpp
 #include "clubhub/event_csv.hpp"
 
 #include <stdexcept>
@@ -9,6 +10,7 @@
 namespace clubhub {
 
 namespace {
+
 
 std::vector<std::string> splitCsvLine(const std::string& line) {
     std::vector<std::string> fields;
@@ -25,12 +27,13 @@ std::vector<std::string> splitCsvLine(const std::string& line) {
     return fields;
 }
 
+
 int parseCapacity(const std::string& text) {
     std::size_t pos = 0;
     int value = 0;
     try {
         value = std::stoi(text, &pos);
-    } catch (const std::logic_error&) {
+    } catch (const std::logic_error&) {  // invalid_argument or out_of_range
         throw std::invalid_argument{"bad capacity '" + text + "'"};
     }
     if (pos != text.size()) {
@@ -45,22 +48,26 @@ EventLoadResult loadEventsCsv(std::istream& in) {
     EventLoadResult result;
     std::string line;
     int lineNo = 1;
-    std::getline(in, line);
+    std::getline(in, line);  
     while (std::getline(in, line)) {
         ++lineNo;
+        
         if (!line.empty() && line.back() == '\r') {
             line.pop_back();
         }
         try {
+            
             const auto fields = splitCsvLine(line);
             if (fields.size() != 5) {
                 throw std::invalid_argument{
                     "expected 5 fields, got " + std::to_string(fields.size())};
             }
+            
             result.events.emplace_back(fields[0], fields[1],
                                        parseTimePoint(fields[2]), fields[3],
                                        parseCapacity(fields[4]));
         } catch (const std::invalid_argument& e) {
+            
             result.errors.push_back({lineNo, e.what()});
         }
     }
