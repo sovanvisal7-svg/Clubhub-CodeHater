@@ -20,6 +20,7 @@ Scenario: The ITC Club Hub system should provide an easy-to-use interface that a
 | Stimulus         | A student tries to find information about a club or an upcoming event.    |
 | Environment      | During normal operation, when students access the system using a computer or mobile device. |
 | Artifact         | The user interface, navigation menu, club directory, and event calendar.    |
+| Response         | The system provides clear navigation and displays relevant information so students can easily find what they need.| | Response measure | At least 90% of first-time users should be able to find a club or event within 1 minute without assistance |
 
 ## QAS-04 · Security  · written by Ouk Sovanvisal
 Scenario: The ITC Club Hub system should protect students' personal information and prevent unauthorized users from accessing private data.
