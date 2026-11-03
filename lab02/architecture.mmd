@@ -1,0 +1,51 @@
+flowchart TB
+
+    subgraph P[Presentation]
+        direction LR
+        PWA[PWA Front End - Modelled]
+        WEB[Web Front End - Modelled]
+        CLI[C++ CLI - Implemented<br/>src/cli/]
+    end
+
+    subgraph L[Logic]
+        direction LR
+        RS[RegistrationService<br/>Implemented<br/>include/clubhub/ and src/]
+        ES[EventService<br/>Implemented<br/>include/clubhub/ and src/]
+    end
+
+    subgraph D[Data]
+        direction LR
+        CSV[(CSV Files<br/>Implemented<br/>data/)]
+        DB[(Database Later<br/>Modelled)]
+    end
+
+    MAIL[[E-mail service]]
+    DIR[[ITC student directory]]
+
+    PWA -->|Registration and event requests| RS
+    PWA -->|Browse events| ES
+
+    WEB -->|Registration requests| RS
+    WEB -->|Event information requests| ES
+
+    CLI -->|Registration commands| RS
+    CLI -->|Event management commands| ES
+
+    RS -->|Read and write registrations| CSV
+    ES -->|Read and write events| CSV
+
+    RS -.->|Future database integration| DB
+    ES -.->|Future database integration| DB
+
+    RS -->|Student ID lookup| DIR
+    DIR -->|Student name and e-mail| RS
+
+    RS -->|Confirmation and reminder requests| MAIL
+
+    classDef implemented fill:#d5f5df,stroke:#238443,stroke-width:2px,color:#123b22
+    classDef modelled fill:#eeeeee,stroke:#777777,stroke-width:1px,stroke-dasharray:5 5,color:#333333
+    classDef external fill:#fff0d5,stroke:#c58b24,stroke-width:1px,color:#533600
+
+    class CLI,RS,ES,CSV implemented
+    class PWA,WEB,DB modelled
+    class MAIL,DIR external

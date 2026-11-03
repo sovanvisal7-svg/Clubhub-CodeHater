@@ -79,13 +79,24 @@ git log -1 --format=%h -- lab01/decisions.md
 
 ## Diagrams
 
-**System context**
+## 1. Context Diagram
 
-![System context diagram](context-diagram.png)
+The context diagram shows how students, club leaders,
+organisers, administrators and external systems
+interact with ITC Club Hub.
 
-**Three-tier architecture**
+![Context Diagram](context-diagram.png)
 
-![Three-tier architecture diagram](architecture.png)
+## 2. Architecture Diagram
+
+The architecture diagram shows the three tiers
+of ITC Club Hub: Presentation, Logic and Data.
+
+Green represents components implemented in C++.
+Grey represents components that are modelled only.
+Orange represents external systems.
+
+![Architecture Diagram](architecture.png)
 
 ---
 
