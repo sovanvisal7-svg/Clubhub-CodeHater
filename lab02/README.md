@@ -53,7 +53,7 @@ Adjust this tree if your actual files differ.
 | [`quality-scenarios.md`](quality-scenarios.md) | Six quality scenarios with measurable targets, plus a priority matrix. |Lay Pichrattanak ,Siem Khattyavtey ,Ouk Sovanvisal ,Kheng Daniza ,Mengheng Saroeun |
 | [`context-diagram.mmd`](context-diagram.mmd) | Shows the people and outside systems that interact with Club Hub. |Siem Khattyavatey |
 | [`architecture.mmd`](architecture.mmd) | Shows the presentation, logic and data tiers. | Siem Khattyavatey|
-| [`challenge/offline-checkin.md`](challenge/offline-checkin.md) | *(Challenge)* Design for checking in without a network connection. | |
+| [`challenge/offline-checkin.md`](challenge/offline-checkin.md) | *(Challenge)* Design for checking in without a network connection. |Ouk Sovanvisal |
 | `include/clubhub/event.hpp`, `src/event.cpp` | Event entity and its domain logic. |Ouk Sovanvisal |
 | `include/clubhub/event_csv.hpp`, `src/event_csv.cpp` | Reads events from CSV. |Ouk Sovanvisal |
 | `src/cli/main.cpp` | `list-events` command-line front end. |Ouk Sovanvisal |
