@@ -1,7 +1,15 @@
 # Lab-02 · Quality attribute scenarios for ITC Club Hub 
 Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): Siem Khattyavtey
 ## QAS-01 · Availability · written by Lay Pichrattanak
-
+Scenario: The ITC Club Hub system should remain available when students want to check any news or annountments.
+| Part             | Content |
+|------------------|---------|
+| Source           | Students using the ITC Club Hub system. |
+| Stimulus         | Students attempt to access the news and announcements section to check the latest updates.|
+| Environment      | During normal operation, including periods when many students access the system simultaneously. |
+| Artifact         | The ITC Club Hub application, announcement module, and database.|
+| Response         | The system retrieves and displays the latest club news and announcements to students.|        
+| Response measure | The system should maintain 99.5% uptime and display news and announcements within 3 seconds for 95% of requests. |
 ## QAS-02 · Performance of check-in at the door · written by Mengheng Saroeun
 
 ## QAS-03 · Usability · written by Kheng Daniza
