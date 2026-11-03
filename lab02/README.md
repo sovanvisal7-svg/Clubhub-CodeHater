@@ -114,7 +114,7 @@ cmake --build build
 
 ## Contribution Notes
 
-<!-- Fill in who did what, and any absences or special circumstances the team wants recorded. -->
+<!-- Everyone help each other -->
 
 ---
 
@@ -122,4 +122,6 @@ cmake --build build
 
 | Date | Version | What changed | By |
 | :--- | :--- | :--- | :--- |
+| 2026-10-31 | 1.0 | Added quality scenarios|Siem Khattyavatey|
 | 2026-11-03 | 1.0 | Added app classification, ADR-001, quality scenarios, context and architecture diagrams, event core, `list-events` CLI and this README. |Ouk Sovanvisal |
+| 2026-11-03 | 1.0 | commit context-diagram.mmd and architecture.mmd | Siem Khattyavatey |
