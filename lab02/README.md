@@ -111,4 +111,4 @@ cmake --build build
 
 | Date | Version | What changed | By |
 | :--- | :--- | :--- | :--- |
-| 2026-11-03 | 1.0 | Added app classification, ADR-001, quality scenarios, context and architecture diagrams, event core, `list-events` CLI and this README. | |
+| 2026-11-03 | 1.0 | Added app classification, ADR-001, quality scenarios, context and architecture diagrams, event core, `list-events` CLI and this README. |Ouk Sovanvisal |
