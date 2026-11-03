@@ -1,5 +1,5 @@
 # Lab-02 · Quality attribute scenarios for ITC Club Hub 
-Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): Siem Khattyavtey
+Version 1.0 · 2026-11-3 · Reviewed by (Scrum Master): Siem Khattyavtey
 ## QAS-01 · Availability · written by Lay Pichrattanak
 Scenario: The ITC Club Hub system should remain available when students want to check any news or annountments.
 | Part             | Content |

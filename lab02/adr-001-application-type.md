@@ -1,5 +1,5 @@
 # ADR-001 · Application types for ITC Club Hub
-Version 1.0 · 2026-__-__ · Status: Proposed | Accepted (date) · Deciders: __
+Version 1.0 · 2026-11-3 · Status: Accepted (2026-11-3) · Deciders: Lay pichrattanak(PO),Siem khattyavatey(SM) and Team.
 
 ## User groups
 | Group          | Device | Where | Connectivity | How often | Must never fail |
