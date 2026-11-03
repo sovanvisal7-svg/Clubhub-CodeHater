@@ -1,3 +1,14 @@
+#include <algorithm>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <string>
+
+#include "clubhub/event.hpp"
+#include "clubhub/event_csv.hpp"
+
+namespace {
+
 int listEvents(const std::string& path) {
     std::ifstream file{path};
     if (!file) {
@@ -38,4 +49,24 @@ int listEvents(const std::string& path) {
                   << '\n';
     }
     return errors.empty() ? 0 : 1;
+}
+
+void printUsage() {
+    std::cerr << "usage: clubhub list-events [events.csv]\n";
+}
+
+} // namespace
+
+int main(int argc, char* argv[]) {
+    if (argc < 2) {
+        printUsage();
+        return 2;
+    }
+    const std::string command{argv[1]};
+    if (command == "list-events") {
+        return listEvents(argc > 2 ? argv[2] : "data/events.csv");
+    }
+    std::cerr << "unknown command: " << command << '\n';
+    printUsage();
+    return 2;
 }
