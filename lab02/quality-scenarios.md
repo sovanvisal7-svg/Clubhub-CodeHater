@@ -13,6 +13,7 @@ Scenario: The ITC Club Hub system should remain available when students want to 
 ## QAS-02 · Performance of check-in at the door · written by Mengheng Saroeun
 
 ## QAS-03 · Usability · written by Kheng Daniza
+Scenario: The ITC Club Hub system should provide an easy-to-use interface that allows students to find clubs, view upcoming events, and read announcements without confusion.
 
 ## QAS-04 · Security  · written by Ouk Sovanvisal
 Scenario: The ITC Club Hub system should protect students' personal information and prevent unauthorized users from accessing private data.
