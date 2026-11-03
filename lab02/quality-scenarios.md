@@ -11,6 +11,15 @@ Scenario: The ITC Club Hub system should remain available when students want to 
 | Response         | The system retrieves and displays the latest club news and announcements to students.|        
 | Response measure | The system should maintain 99.5% uptime and display news and announcements within 3 seconds for 95% of requests. |
 ## QAS-02 · Performance of check-in at the door · written by Mengheng Saroeun
+Scenario: The ITC Club Hub system should quickly display club information when students search for available clubs.
+| Part             | Content |
+|------------------|---------|
+| Source           | Students using the ITC Club Hub system.|
+| Stimulus         | A student searches for a specific club.|
+| Environment      | During normal operation when multiple students are browsing clubs.|
+| Artifact         | Club search module and database.|
+| Response         | The system retrieves and displays matching club information.|
+| Response measure | Search results should appear within 2 seconds for 95% of requests.|
 
 ## QAS-03 · Usability · written by Kheng Daniza
 Scenario: The ITC Club Hub system should provide an easy-to-use interface that allows students to find clubs, view upcoming events, and read announcements without confusion.
