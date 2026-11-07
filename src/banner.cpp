@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Team CodeHater, ITC Club Hub contributors
 // src/banner.cpp
 #include "clubhub/banner.hpp"
 
