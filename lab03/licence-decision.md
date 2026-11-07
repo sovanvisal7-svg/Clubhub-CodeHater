@@ -18,3 +18,4 @@ The team proposes the MIT License because it is a simple and permissive open-sou
 | Member | Agrees | Date |
 |--------|--------|------|
 | Siem Khattyavatey | yes | 2026-11-7 |
+| Lay pichrattanak | yes | 2026-11-7 |
