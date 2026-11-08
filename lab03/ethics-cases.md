@@ -23,7 +23,7 @@ Thank you for understanding.
 
 **Preventive change:** Restrict cross-club attendance reports to authorized users.
 
-**GitHub issue:** #TODO (Label: `ethics`)
+**GitHub issue:** (Label: `ethics`)
 
 ## Scenario B: "Don't mention it in the demo"
 (same table)
