@@ -17,3 +17,18 @@ endif()
 # Executable: the command-line front endif
 add_executable(clubhub src/cli/main.cpp)
 target_link_libraries(clubhub PRIVATE clubhub_core)
+include(FetchContent)
+FetchContent_Declare(googletest
+  URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+
+add_executable(ConsoleOutputTest
+  tests/ConsoleOutputTest.cpp
+  src/ConsoleOutput.cpp)
+target_include_directories(ConsoleOutputTest PRIVATE include)
+target_link_libraries(ConsoleOutputTest PRIVATE GTest::gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(ConsoleOutputTest)
