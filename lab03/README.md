@@ -24,6 +24,7 @@
 |------|--------|--------|
 | 2026-11-7 | Lab-03: notice, licence | Siem Khattyavatey |
 | 2026-11-9 | Lab-03: ethics-case.md | Siem Khattyavatey |
+|2026-11-10 | Lab-03: accessibility-checklist.md |Ouk Sovanvisal|
 
 ## Open questions for the client
 - Are club leaders allowed to access attendance records from other clubs?
