@@ -1,5 +1,5 @@
 # Data inventory · ITC Club Hub
-Version 0.1 · 2026-11-06 · Authors: <names>
+Version 0.1 · 2026-11-06 · Authors: <Lay pichrattanak>
 
 | Field | Subject | Purpose | Legal basis / consent | Retention | Who can see it | Stored in | Decision |
 |---|---|---|---|---|---|---|---|
@@ -24,11 +24,14 @@ Version 0.1 · 2026-11-06 · Authors: <names>
 | screenshots in docs | obscure all real names, emails, and identifiers with solid black redaction blocks |
 
 ## Lifecycle of the phone field
+```mermaid
 flowchart LR
     C["Collect: Obtain optional opt-in via a explicit form checkbox"] --> S["Store: Encrypt at rest and mask middle digits in active columns"]
     S --> U["Use: Restrict lookup access to emergency response scenarios only"]
     U --> SH["Share: Strict block on third-party transmission or export boundaries"]
     SH --> D["Delete: Absolute hard-purge from active disks and overwrite backups within 30 days"]
+```
+
 
 ## Client feedback
 - The Product Owner walked the teaching assistant through the Drop decisions (dateOfBirth and photo). The client raised no objections regarding these minimization strategies.
