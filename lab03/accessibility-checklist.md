@@ -1,5 +1,5 @@
 # Accessibility checklist · ITC Club Hub (planned web and mobile UI)
-Target: WCAG 2.2 level AA · Version 0.1 · 2026-MM-DD
+Target: WCAG 2.2 level AA · Version 0.1 · 2026-11-11
 
 | SC | Name | Level | Screen | How we meet it | How we test it |
 |----|------|-------|--------|----------------|----------------|
