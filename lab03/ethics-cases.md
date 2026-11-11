@@ -33,11 +33,6 @@ Restrict access to cross-club attendance reports so that only authorized users (
 ### Expected Result
 Only authorized users can view cross-club attendance reports, protecting student privacy.
 
-### Labels
-- security
-- access-control
-- enhancement
-
 **Related Issue:** #105
 
 
