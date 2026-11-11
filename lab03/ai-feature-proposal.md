@@ -1,7 +1,7 @@
 # AI feature proposal: "Recommended for you"
 Version 0.1 · 2026-11-11 · Authors: Ouk Sovanvisal (p20250019), team Code Hater
 
-## 1 Problem and non-personalised baseline
+## 1. Problem and non-personalised baseline
 
 **User problem.** Students at ITC do not find out about events that suit them. Posters and chat groups reach only people already in the club, so a student who attended one Debate Night never hears about a related workshop run by another club. The clubs office wants a "Recommended for you" list of five upcoming events per student, chosen from attendance history.
 
@@ -14,7 +14,7 @@ A third, optional slot: **New and small clubs**, chosen by the clubs office on a
 
 The baseline solves the "I never hear about events in my own clubs" part and the "what is happening on campus" part. It does not solve discovery of clubs the student does not know yet. That remaining gap is the only justification for personalisation.
 
-## 2 Data needed
+## 2. Data needed
 
 | Field | Source | In inventory? | New purpose / consent? | Minimisation |
 |-------|--------|---------------|------------------------|--------------|
@@ -34,7 +34,7 @@ The baseline solves the "I never hear about events in my own clubs" part and the
 - The privacy notice and consent text must name the recommender and the opt-out.
 - Any earlier decision to keep check-ins only as anonymous counts would have to be reversed for opted-in students, so it is recorded as an exception, not a general change.
 
-## 3 Bias risks
+## 3. Bias risks
 
 | Risk | Who is harmed | Mitigation | Fairness check (metric, threshold) |
 |------|---------------|------------|------------------------------------|
@@ -47,7 +47,7 @@ The baseline solves the "I never hear about events in my own clubs" part and the
 
 All checks are computed on aggregate counts, not on individual students.
 
-## 4 Transparency
+## 4. Transparency
 
 **"Why am I seeing this?" example** (event: *Debate Night: AI in Education*, Debate Club):
 
@@ -63,7 +63,7 @@ All checks are computed on aggregate counts, not on individual students.
 
 **Never used:** name, faculty, year, grades, home address, device location, payment, or any data from outside Club Hub. The monthly fairness numbers from section 3 are published with this description.
 
-## 5 Opt-out design
+## 5. Opt-out design
 
 **Choice: opt-out for the baseline list, opt-in for personalisation using attendance history.** Justification: the baseline needs no personal data, so it is on for everyone. Personalisation reuses attendance data for a new purpose, so the default for it is **off** until the student turns it on during onboarding (a plain-language screen, not pre-ticked). This keeps consent meaningful and means new students are not profiled before they have chosen.
 
@@ -90,7 +90,7 @@ flowchart TD
   I -- "No" --> D
 ```
 
-## 6 Recommendation
+## 6. Recommendation
 
 **Decision: GO WITH CONDITIONS**
 
