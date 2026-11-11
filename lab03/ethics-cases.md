@@ -3,15 +3,17 @@ Version 1.0 · 2026-11-10 · Leads: A = Siem Khattyavatey, B = Lay Pichrattanak
 
 ## Scenario A: "Just a small report"
 
+
 | Step | Analysis |
-|------|----------|
-| 1. Facts | The Robotics Club leader wants to see students attending other clubs' events for recruitment. We need to check administrator approval and student privacy policies. |
-| 2. Stakeholders and harms | Students may lose privacy. Club leaders may misuse information. Administrators and developers may lose trust. |
-| 3. Codes, law, policy | SE Code 3: Product quality and responsibility. ACM 1.6: Respect privacy. GDPR 5(1)(a): Lawfulness, fairness and transparency. GDPR 5(1)(b): Purpose limitation. |
-| 4. Options | (a) Build the report immediately. (b) Reject the request. (c) Ask the administrator for approval. (d) Provide anonymous attendance statistics instead. |
-| 5. Tests | (a) Fails harm, rights and publicity tests. (b) Protects privacy but may be too restrictive. (c) Passes if proper authorization is obtained. (d) Passes if students cannot be identified. |
-| 6. Decision and action | Choose (c) and (d). Confirm permission first and offer anonymous attendance statistics instead of individual records. |
-| 7. Reflection | Having access to data does not mean having permission to use it. Developers must protect student privacy. |
+|---|---|
+| **1 Facts** | **Known:** The Robotics Club leader wants to see which students attend other clubs' events for recruitment purposes. **To find out:** Does the administrator approve this request, and what do existing student privacy policies allow? |
+| **2 Stakeholders and harms** | **Students:** Lose personal privacy and face unwanted recruitment or profiling. **Club Leaders:** Risk misusing restricted data beyond its intended scope. **Administrators & Developers:** Face damaged institutional trust and policy violations. |
+| **3 Codes, law, policy** | **ACM Code:** 1.6 (Respect privacy). **SE Code:** 3.00 (Maintain product quality and professional responsibility). **GDPR Principle:** Article 5(1)(a) Lawfulness, fairness, and transparency; Article 5(1)(b) Purpose limitation. |
+| **4 Options** | **(a)** Build and deliver the detailed student attendance report immediately. **(b)** Outright reject the Robotics Club leader's request. **(c)** Escalate the request to the administrator for formal approval. **(d)** Provide aggregated, anonymous attendance statistics instead of individual student records. |
+| **5 Tests** | **(a)** Fails the harm, rights, and publicity tests by exposing private student data without consent. **(b)** Protects student privacy completely, though it may be overly restrictive if safe alternatives exist. **(c)** Passes ethical and policy tests only if formal administrative authorization and privacy compliance are confirmed. **(d)** Passes all ethical tests as long as individual students cannot be re-identified. |
+| **6 Decision and action** | **Choose Options (c) and (d):** Confirm policy boundaries with the administrator first, then offer aggregated, anonymous attendance statistics instead of identifiable student records. |
+| **7 Reflection** | **Core Lesson:** Having technical access to user data does not grant ethical or legal permission to repurpose it; developers must actively safeguard student privacy by design. |
+
 
 **Message sent:**
 
