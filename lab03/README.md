@@ -29,6 +29,7 @@
 |2026-11-10 | Lab-03: cli-output-rules.md |Ouk Sovanvisal|
 |2026-11-10 | Lab-03: ConsoleOutput.h |Ouk Sovanvisal|
 |2026-11-10 | Lab-03: ConsoleOutput.cpp |Ouk Sovanvisal|
+|2026-11-11 | Lab-03: ai-feature-proposal.md |Ouk Sovanvisal|
 ## Open questions for the client
 - Are club leaders allowed to access attendance records from other clubs?
 - Do students need to give permission before their attendance information is shared?
