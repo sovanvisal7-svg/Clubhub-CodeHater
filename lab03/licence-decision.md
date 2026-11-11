@@ -1,5 +1,5 @@
 # Licence decision · ITC Club Hub
-Version 1.0 · 2026-11-7 · Lead: <Scrum Master>
+Version 1.0 · 2026-11-7 · Lead: Siem Khattyavatey
 
 | Criterion | MIT | Apache-2.0 | GPL-3.0 |
 |---|---|---|---|

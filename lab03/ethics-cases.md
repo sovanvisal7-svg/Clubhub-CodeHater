@@ -21,7 +21,7 @@ Thank you for your suggestion. However, sharing students' attendance records acr
 
 Thank you for understanding.
 
-**Preventive change:** Restrict cross-club attendance reports to authorized users.
+**Preventive change:** Restrict cross-club attendance reports to authorized users
 
 **GitHub issue:** (Label: `ethics`)
 
