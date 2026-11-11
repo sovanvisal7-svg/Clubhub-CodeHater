@@ -38,6 +38,6 @@ Thank you for understanding.
 | **7 Reflection** | Suppressing software bugs during milestones compromises code quality and professional ethics. Engineering honesty must always override temporary administrative convenience or cosmetic sprint success metrics. |
 
 **Message sent:** 
-"Hi Robotics Club Leader, during pre-demo testing we identified an issue where registration cancellations inside the 24-hour window are incorrectly counted as active attendance. While we understand the timeline is tight, hiding this error during the demo compromises our professional integrity and delivery trust. We have formally created issue #105 to track this. We plan to present this transparently on our 'Known Issues' slide during the Sprint 1 review and detail our definitive fix scheduled for Sprint 2." 
+"Hi Robotics Club Leader, during pre-demo testing we identified an issue where registration cancellations inside the 24-hour window are incorrectly counted as active attendance. While we understand the timeline is tight, hiding this error during the demo compromises our professional integrity and delivery trust. We have formally created issue to track this. We plan to present this transparently on our 'Known Issues' slide during the Sprint 1 review and detail our definitive fix scheduled for Sprint 2." 
 
-**Preventive change:** Add automated regression tests validating that cancellations within the 24-hour boundary explicitly fail to trigger an attendance increment, tracked under issue #105.
+**Preventive change:** Add automated regression tests validating that cancellations within the 24-hour boundary explicitly fail to trigger an attendance increment, tracked under issue 105.
