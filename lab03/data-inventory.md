@@ -1,5 +1,5 @@
 # Data inventory · ITC Club Hub
-Version 0.1 · 2026-11-06 · Authors: <Lay pichrattanak>
+Version 0.1 · 2026-11-06 · Authors: Lay pichrattanak
 
 | Field | Subject | Purpose | Legal basis / consent | Retention | Who can see it | Stored in | Decision |
 |---|---|---|---|---|---|---|---|
