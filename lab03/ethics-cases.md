@@ -21,20 +21,7 @@ Thank you for your suggestion. However, sharing students' attendance records acr
 
 Thank you for understanding.
 
-## Preventive Change
-
-Restrict access to cross-club attendance reports so that only authorized users (such as administrators) can view them.
-
-### Implementation
-- Implement Role-Based Access Control (RBAC).
-- Verify user permissions before displaying attendance reports.
-- Prevent unauthorized users from accessing cross-club attendance data.
-
-### Expected Result
-Only authorized users can view cross-club attendance reports, protecting student privacy.
-
-**Related Issue:** #105
-
+**Preventive change:** Restrict cross-club attendance reports to authorized users
 
 **GitHub issue:** (Label: `ethics`)
 
