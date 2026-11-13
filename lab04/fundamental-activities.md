@@ -12,3 +12,6 @@
 - **Design and implementation:** Architectural design, interface design, component coding, unit debugging · **12207:** Architecture definition, Design definition, Implementation.
 - **Validation:** Component testing, system integration testing, user acceptance testing · **12207:** Verification, Validation.
 - **Evolution:** Change request evaluation, system modification, regression testing, release maintenance · **12207:** Maintenance, Configuration management
+## Overlaps and loops
+1. **Sprint 1 review (week 10) produces new stories → specification again in week 11:** Feedback from demonstrating the basic club registration flow uncovers missing edge cases for waitlists, requiring the Product Owner to update the requirements before Sprint 2 coding begins.
+2. **Validation failures (week 9) trigger rework → design and implementation in week 9–10:** Failing GoogleTest cases on concurrent event sign-ups reveal a race condition, sending the developers back to adjust the RegistrationService locking logic.
