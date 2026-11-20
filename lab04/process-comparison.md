@@ -193,4 +193,4 @@ All team members should review and approve the comparison before it is finalized
 | Member 2 | Pending |
 | Member 3 | Pending |
 | Member 4 | Pending |
-| Member 5 | Pending |
+| Ouk Sovanvisal | Agree |
