@@ -21,20 +21,20 @@ Five team members independently scored the three process models from 1 to 5.
 
 | Member | Waterfall | Incremental | Scrum-style | Preferred Model |
 |---|---:|---:|---:|---|
-| Member 1 | 14 | 20 | 19 | Incremental |
-| Member 2 | 14 | 20 | 22 | Scrum-style |
-| Member 3 | 17 | 24 | 19 | Incremental |
-| Member 4 | 17 | 23 | 18 | Incremental |
-| Member 5 | 14 | 20 | 19 | Incremental |
+| Siem Khattyavatey | 14 | 20 | 19 | Incremental |
+| Kheng Daniza | 14 | 20 | 22 | Scrum-style |
+| Soeung Mengheng | 17 | 24 | 19 | Incremental |
+| Ouk Sovanvisal | 17 | 23 | 18 | Incremental |
+| Lay pichrattanak | 14 | 20 | 19 | Incremental |
 | **Total** | **76** | **107** | **97** | **Incremental** |
 
 ### Differences Between Individual Scores
 
 There were some differences in individual opinions:
 
-- Member 2 preferred Scrum-style because it supports changing requirements, frequent feedback, and sprint-based teamwork.
-- Members 3 and 4 preferred Incremental because it provides structured development and allows the team to deliver features step by step.
-- Member 1 and Member 5 also preferred Incremental because it supports regular testing and gradual delivery.
+- Kheng Daniza preferred Scrum-style because it supports changing requirements, frequent feedback, and sprint-based teamwork.
+- Soeung Mengheng and Lay pichrattanak preferred Incremental because it provides structured development and allows the team to deliver features step by step.
+- Siem Khattyavatey and Ouk Sovanvisal also preferred Incremental because it supports regular testing and gradual delivery.
 
 ### Team Discussion
 
@@ -177,11 +177,11 @@ To check whether the selected process model is reliable, the team changes the we
 | **Incremental** | **4.00** | **4.00** |
 | Scrum-style | 3.85 | 3.75 |
 
-**Result:** Incremental remains the winner after changing the weights. Therefore, the selected process model does not change.
+**Result:** Incremental remains the winner after changing the weights follow by the Scrum-style. Therefore, the selected process model will focus on Incremental mix with Scrum-style.
 
 ## 7. Conclusion
 
-Based on the five individual scoring sheets and the team's weighted comparison, Incremental is the preferred process model for ITC Club Hub. It allows the team to develop and test working features in structured stages while receiving feedback at planned milestones. One weakness is that integrating different increments can become difficult if the system architecture is not clearly planned. The team can reduce this risk through early architecture planning, regular integration testing, and clear communication. The team may also use Scrum-style sprint planning, reviews, and retrospectives to improve coordination.
+Based on the five individual scoring sheets and the team's weighted comparison, Incremental is the preferred process model for ITC Club Hub. It allows the team to develop and test working features in structured stages while receiving feedback at planned milestones. One weakness is that integrating different increments can become difficult if the system architecture is not clearly planned. The team can reduce this risk through early architecture planning, regular integration testing, and clear communication. The team will also use Scrum-style sprint planning, reviews, and retrospectives to improve coordination. However, if there is a problem that may emerge, change will be taken into consideration.
 
 ## 8. Team Agreement
 
