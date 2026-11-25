@@ -5,10 +5,12 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Library: Contains all application logic except main()
-# add_library(clubhub_core src/banner.cpp)
-# add_library(clubhub_core src/event.cpp src/event_csv.cpp)
-# Added src/Student.cpp for Lab-03
+include(FetchContent)
+
+# =====================================
+# Core Library
+# =====================================
+
 add_library(clubhub_core 
     src/event.cpp 
     src/event_csv.cpp
@@ -26,22 +28,69 @@ else()
     target_compile_options(clubhub_core PRIVATE -Wall -Wextra -Wpedantic)
 endif()
 
-# Executable: Command-line interface frontend
-# add_executable(clubhub src/main.cpp)
+# =====================================
+# Main Application
+# =====================================
+
 add_executable(clubhub src/cli/main.cpp)
+
 target_link_libraries(clubhub PRIVATE clubhub_core)
-include(FetchContent)
-FetchContent_Declare(googletest
-  URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip)
-FetchContent_MakeAvailable(googletest)
+
+# =====================================
+# FetchContent Dependencies
+# =====================================
+
+FetchContent_Declare(
+    googletest
+    URL https://github.com/google/googletest/archive/refs/tags/v1.17.0.zip
+    DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+)
+
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+
+FetchContent_Declare(
+    rapidcsv
+    GIT_REPOSITORY https://github.com/d99kris/rapidcsv.git
+    GIT_TAG v9.07
+    GIT_SHALLOW TRUE
+)
+
+FetchContent_MakeAvailable(googletest rapidcsv)
+
+# =====================================
+# Testing
+# =====================================
 
 enable_testing()
 
-add_executable(ConsoleOutputTest
-  tests/ConsoleOutputTest.cpp
-  src/ConsoleOutput.cpp)
-target_include_directories(ConsoleOutputTest PRIVATE include)
-target_link_libraries(ConsoleOutputTest PRIVATE GTest::gtest_main)
-
 include(GoogleTest)
+
+add_executable(ConsoleOutputTest
+    tests/ConsoleOutputTest.cpp
+    src/ConsoleOutput.cpp
+)
+
+target_include_directories(ConsoleOutputTest PRIVATE include)
+
+target_link_libraries(
+    ConsoleOutputTest
+    PRIVATE GTest::gtest_main
+)
+
 gtest_discover_tests(ConsoleOutputTest)
+
+add_executable(csv_smoke_test
+    tests/csv_smoke_test.cpp
+)
+
+target_link_libraries(
+    csv_smoke_test
+    PRIVATE
+    rapidcsv
+    GTest::gtest_main
+)
+
+gtest_discover_tests(
+    csv_smoke_test
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+)
