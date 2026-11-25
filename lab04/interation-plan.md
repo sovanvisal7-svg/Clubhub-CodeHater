@@ -68,7 +68,7 @@ gantt
 ## 5. Review and approval
 
 - Scrum Master: Siem Khattyavatey
-- Product Owner: [Name]
+- Product Owner: Lay pichrattanak
 - Team member 1: [member names]
 - Team member 2: [member names]
 - Team member 3: Saroeun Mengheng
