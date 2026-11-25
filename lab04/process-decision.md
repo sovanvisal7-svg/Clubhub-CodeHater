@@ -90,7 +90,7 @@ flowchart TD
     Harden --> Submit
 ## 6. Approvals
 
-* [ ] [Member 1 Name] (Product Owner) — Approved on [YYYY-MM-DD]
+-** [Lay pichrattanak] (Product Owner):** — Approved on [2026-11-25]
 - **Siem Khattyavatey (Scrum Master):** Approved (2026-11-25)
 * [ ] [Member 3 Name] (Developer) — Approved on [YYYY-MM-DD]
 * [ ] [Member 4 Name] (Developer) — Approved on [YYYY-MM-DD]
