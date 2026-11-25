@@ -53,7 +53,41 @@ gantt
 ```
 ## 2. Iteration goals
 
+| Iteration | Weeks | Goal | Candidate features | Capacity | Exit criterion |
+|---|---|---|---|---|---|
+| Requirements | 5–6 | Understand and document the project requirements. | Requirements elicitation, SRS, product backlog | N/A | SRS and prioritized backlog completed |
+| Models | 7 | Prepare the system design before implementation. | UML diagrams, class diagrams, architecture | N/A | Models reviewed by the team |
+| Checkpoint | 8 | Demonstrate initial planning and design progress. | Requirements, SRS, UML diagrams | N/A | Checkpoint 1 completed |
+| Sprint 1 | 9–10 | A student can browse upcoming events and register through the CLI. | Browse events, register for events, capacity validation, prevent duplicate registrations | 5 × 6 × 2 × 0.8 = **48 h** | Features demonstrated, tests pass and code reviewed |
+| Sprint 2 | 11–12 | A student can manage registrations and the system can manage event participation. | Cancel registration, basic waitlist management, event management | 5 × 6 × 2 × 0.8 = **48 h** | Features integrated, tested and demonstrated |
+| Hardening | 13 | Stabilize the application and prepare it for submission. | Bug fixes, integration testing, validation and documentation | N/A | No critical bugs and all required tests pass |
+| Submission | 14 | Deliver and demonstrate the completed ITC Club Hub. | Final application, documentation and demo | N/A | Project submitted and demo completed |
+
 ## 3. Sprint capacity estimation
+
+Formula:
+
+**Capacity = Team members × Hours per week × Sprint duration × Focus factor**
+
+Given:
+
+- Team members = 5
+- Hours per week = 6
+- Sprint duration = 2 weeks
+- Focus factor = 0.8
+
+Calculation:
+
+5 × 6 × 2 × 0.8 = **48 hours**
+
+| Sprint | Duration | Estimated capacity |
+|---|---|---:|
+| Sprint 1 | 2 weeks | 48 hours |
+| Sprint 2 | 2 weeks | 48 hours |
+| Total | 4 weeks | 96 hours |
+
+The team will prioritize small, achievable features that fit within the available capacity. Additional features will remain in the product backlog if they cannot be completed within the sprint.
+
 
 ## 4. Important scheduling decisions
 
