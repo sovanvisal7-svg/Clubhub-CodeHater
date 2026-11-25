@@ -190,7 +190,7 @@ All team members should review and approve the comparison before it is finalized
 | Team Member | Approval |
 |---|---|
 | Siem Khattyavatey | Agree |
-| Member 2 | Pending |
+| Lay pichrattanak | Agree |
 | Member 3 | Pending |
 | Saroeun Mengheng | Agree |
 | Ouk Sovanvisal | Agree |
