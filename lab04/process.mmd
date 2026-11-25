@@ -1,0 +1,29 @@
+```mermaid
+flowchart TD
+    Backlog[("Product Backlog<br/>Role: Product Owner")]
+    Req["Requirements Phase (Weeks 5–6)<br/>Role: Product Owner & Whole Team"]
+    Model["Modelling & Architecture (Week 7)<br/>Role: Tech Lead & Developers"]
+    CP1{"Checkpoint 1 (Week 8)<br/>Role: Product Owner & Client"}
+
+    subgraph SprintLoop ["Sprint Loop (Weeks 9–12)"]
+        Plan["Sprint Planning<br/>Role: Scrum Master & Whole Team"]
+        Dev["Development & Testing<br/>Role: Developers"]
+        Rev["Sprint Review<br/>Role: Product Owner & Whole Team"]
+        Retro["Sprint Retrospective<br/>Role: Scrum Master & Whole Team"]
+        More{"More sprints before Week 13?<br/>Role: Product Owner"}
+
+        Plan --> Dev --> Rev --> Retro --> More
+        More -- "Yes" --> Plan
+    end
+
+    Harden["Hardening (Week 13)<br/>Role: QA / Build Lead & Developers"]
+    Submit(["Final Submission (Week 14)<br/>Role: Product Owner"])
+
+    Req --> Backlog
+    Backlog --> Model
+Model --> CP1
+    CP1 -- "Approved" --> Plan
+    Rev -. "Feedback" .-> Backlog
+    More -- "No" --> Harden
+    Harden --> Submit
+```
