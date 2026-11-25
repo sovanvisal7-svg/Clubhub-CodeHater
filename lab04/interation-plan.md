@@ -71,6 +71,6 @@ gantt
 - Product Owner: [Name]
 - Team member 1: [member names]
 - Team member 2: [member names]
-- Team member 3: [member names]
+- Team member 3: Saroeun Mengheng
 - Review date: [Date]
 - Status: Proposed
