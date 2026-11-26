@@ -14,9 +14,9 @@ TEST(CsvSmokeTest, ReadsEventTitlesAndCapacities) {
     const std::vector<int> capacities =
         doc.GetColumn<int>("capacity");
 
-    ASSERT_EQ(titles.size(), 2U);
+    ASSERT_EQ(titles.size(), 5U);
 
     EXPECT_EQ(titles.at(0), "Robotics Workshop");
 
-    EXPECT_EQ(capacities.at(1), 30);
+    EXPECT_EQ(capacities.at(1), 120);
 }
