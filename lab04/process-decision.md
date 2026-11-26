@@ -92,6 +92,6 @@ flowchart TD
 
 - **Lay pichrattanak (Product Owner):** — Approved on (2026-11-25)
 - **Siem Khattyavatey (Scrum Master):** Approved (2026-11-25)
-* [ ] [Member 3 Name] (Developer) — Approved on [YYYY-MM-DD]
+- **Kheng Daniza (Developer): **Approved (2026-11-26)
 - **Ouk Sovanvisal (Developer):** Approved (2026-11-26)
 - **Saroeun Mengheng (Developer):** Approved (2026-11-25)

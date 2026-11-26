@@ -191,6 +191,6 @@ All team members should review and approve the comparison before it is finalized
 |---|---|
 | Siem Khattyavatey | Agree |
 | Lay pichrattanak | Agree |
-| Member 3 | Pending |
+| Kheng Daniza | Agree |
 | Saroeun Mengheng | Agree |
 | Ouk Sovanvisal | Agree |
