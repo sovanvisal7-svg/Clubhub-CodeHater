@@ -57,7 +57,7 @@ We will adopt a Tailored Hybrid Iterative Process (Water-Scrum-Fall) combining s
    * *Mitigation:* Strictly enforce the Definition of Done on every Pull Request and reserve Week 13 exclusively for bug fixes and stabilization (no new features).
 
 ## 5. Process Diagram
-
+```mermaid
 flowchart TD
     Backlog[("Product Backlog<br/><i>(Product Owner)</i>")]
     Req["Requirements Phase<br/>Weeks 5–6<br/><i>(Product Owner & Team)</i>"]
@@ -88,6 +88,7 @@ flowchart TD
     Review -. "Client Feedback &<br/>Backlog Refinement" .-> Backlog
     MoreSprints -- "No (Week 13 Reached)" --> Harden
     Harden --> Submit
+```
 ## 6. Approvals
 
 - **Lay pichrattanak (Product Owner):** — Approved on (2026-11-25)
