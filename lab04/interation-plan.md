@@ -103,7 +103,7 @@ The team will prioritize small, achievable features that fit within the availabl
 
 - Scrum Master: Siem Khattyavatey
 - Product Owner: Lay pichrattanak
-- Team member 1: [member names]
+- Developer: Ouk Sovanvisal
 - Team member 2: [member names]
 - Team member 3: Saroeun Mengheng
 - Review date: [Date]
