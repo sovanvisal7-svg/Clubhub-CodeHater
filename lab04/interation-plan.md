@@ -106,5 +106,5 @@ The team will prioritize small, achievable features that fit within the availabl
 - Developer: Ouk Sovanvisal
 - Team member 2: Kheng Daniza
 - Team member 3: Saroeun Mengheng
-- Review date: [Date]
+- Review date: [2026.11.26]
 - Status: Proposed
